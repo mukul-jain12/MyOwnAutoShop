@@ -9,8 +9,8 @@ public class MyOwnAutoShop {
 		Sedan sedan = new Sedan(220, 6000.00, "Silver", 15);
 		
 		//There are Two Ford object or instance(sub class of Car class)
-		Ford fordInstanceOne = new Ford(240, 7200.00, "White", 2021, 30);
-		Ford fordInstanceTwo = new Ford(280, 8500.00, "Grey", 2020, 40);
+		Ford fordInstanceOne = new Ford(240, 7200.00, "White", 2015, 9);
+		Ford fordInstanceTwo = new Ford(280, 8500.00, "Grey", 2016, 20);
 		
 		//Car object or instance(Car class)
 		Car car = new Car(150, 5000.00, "white");
