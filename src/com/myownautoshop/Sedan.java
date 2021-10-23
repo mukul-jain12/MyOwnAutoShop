@@ -1,7 +1,7 @@
 package com.myownautoshop;
 
 //Sub class of Car
-public class Sedan extends Car {
+class Sedan extends Car {
 	private int length;
 
 	//constructor

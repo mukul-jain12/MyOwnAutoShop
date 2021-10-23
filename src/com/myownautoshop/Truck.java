@@ -1,8 +1,8 @@
 package com.myownautoshop;
 
 //Sub-Class of Truck
-public class Truck extends Car {
-	private int weight;
+class Truck extends Car {
+	public int weight;
 	
 	//constructor
 	public Truck(int speed, double regularPrice, String color, int weight) {

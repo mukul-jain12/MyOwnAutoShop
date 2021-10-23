@@ -1,7 +1,7 @@
 package com.myownautoshop;
 
 //Sub class Of Car
-public class Ford extends Car {
+class Ford extends Car {
 	//variables
 	public int year;
 	public int manufacturerDiscount;
