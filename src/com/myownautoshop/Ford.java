@@ -15,6 +15,6 @@ class Ford extends Car {
 
 	//return sales prices
 	public double getSalePrice() {
-		return super.getSalePrice();
+		return super.getSalePrice() - manufacturerDiscount;
 	}
 }
