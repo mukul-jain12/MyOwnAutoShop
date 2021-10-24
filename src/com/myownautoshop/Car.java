@@ -1,10 +1,12 @@
 package com.myownautoshop;
 
 //Parent class
-class Car {
-	public int speed;
-	public double regularPrice;
-	public String color;
+public class Car {
+	
+	//(put variable in private)
+	private int speed;
+	private double regularPrice;
+	private String color;
 
 	//Car constructor(paramet.)
 	public Car(int speed, double regularPrice, String color) {

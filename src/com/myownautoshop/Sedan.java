@@ -1,7 +1,7 @@
 package com.myownautoshop;
 
 //Sub class of Car
-class Sedan extends Car {
+public class Sedan extends Car {
 	private int length;
 
 	//constructor
@@ -10,7 +10,7 @@ class Sedan extends Car {
 		this.length = length;
 	}
 
-	//return sale price
+	//return sale price after discount
 	public double getSalePrice() {
 		//calculating discount
 		double discount = 0.90;

@@ -1,8 +1,8 @@
 package com.myownautoshop;
 
-//Sub-Class of Truck
-class Truck extends Car {
-	public int weight;
+//Sub-Class of Car
+public class Truck extends Car {
+	private int weight;
 	
 	//constructor
 	public Truck(int speed, double regularPrice, String color, int weight) {
@@ -10,7 +10,7 @@ class Truck extends Car {
 		this.weight = weight;
 	}
 
-	//calculating Sales price
+	//calculating Sales price after discount
 	public double getSalePrice() {
 		//calculating discount
 		double discount = 0.80;
